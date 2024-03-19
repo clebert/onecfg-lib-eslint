@@ -15,5 +15,12 @@ npm install onecfg-lib-eslint
 ```js
 import { createConfigs } from 'onecfg-lib-eslint';
 
-export default [{ ignores: [`dist/`, `lib/`] }, ...createConfigs({ browser: true, node: true })];
+export default [
+  { ignores: [`dist/`, `lib/`] },
+
+  ...createConfigs({
+    browser: true,
+    node: true,
+  }),
+];
 ```
