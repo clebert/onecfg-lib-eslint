@@ -1,0 +1,41 @@
+{
+  "name": "onecfg-lib-eslint",
+  "version": "0.0.0",
+  "description": "An ESLint config for use in onecfg projects.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clebert/onecfg-lib-eslint.git"
+  },
+  "license": "MIT",
+  "author": "Clemens Akens",
+  "type": "module",
+  "exports": {
+    ".": "./src/mod.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "compile:check": "tsc",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "release": "npm version",
+    "postrelease": "git push --follow-tags"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^14.0.0",
+    "typescript-eslint": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.5",
+    "@types/node": "^20.11.29",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
