@@ -6,6 +6,7 @@
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-github-ci.json",
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-github-ci-node.json",
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-github-ci-npm.json",
+    "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-github-ci-npm-publish.json",
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-node.json",
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-prettier.json",
     "https://raw.githubusercontent.com/clebert/onecfg-lib/main/lib/onecfg-typescript.json",
