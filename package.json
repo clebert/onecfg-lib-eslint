@@ -10,7 +10,7 @@
   "author": "Clemens Akens",
   "type": "module",
   "exports": {
-    ".": "./src/mod.js"
+    ".": "./src/create-configs.js"
   },
   "files": [
     "src"

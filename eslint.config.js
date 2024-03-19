@@ -1,3 +1,3 @@
-import { createConfigs } from './src/mod.js';
+import { createConfigs } from './src/create-configs.js';
 
 export default [...createConfigs({ node: true })];

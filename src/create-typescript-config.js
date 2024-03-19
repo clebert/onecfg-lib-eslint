@@ -10,11 +10,7 @@ export function createTypescriptConfig() {
 
     // @ts-expect-error
     plugins: { '@typescript-eslint': tsPlugin },
-
-    languageOptions: {
-      parser: tsParser,
-      parserOptions: { project: true, tsconfigRootDir: import.meta.dirname },
-    },
+    languageOptions: { parser: tsParser, parserOptions: { project: true } },
 
     rules: {
       '@typescript-eslint/await-thenable': `error`,
