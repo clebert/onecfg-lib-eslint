@@ -1,6 +1,6 @@
 {
   "name": "onecfg-lib-eslint",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An ESLint config for use in onecfg projects.",
   "repository": {
     "type": "git",
